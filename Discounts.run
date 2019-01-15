@@ -1,0 +1,15 @@
+reset;
+model Discounts.mod;
+data Discounts.dat;
+option solver knitro;
+option solution_round 1;
+solve;
+option omit_zero_rows 1;
+option display_1col 1000;
+# display x, z;
+display x;
+
+
+
+
+
